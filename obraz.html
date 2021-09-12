@@ -1,0 +1,30 @@
+<html>
+<head>
+<script type="text/javascript">
+function okno_zamknij_musialowska()
+{
+window.close()
+}
+</script>
+</head>
+<body>
+a)Uwagi na temat JS <br>
+-powstała w 1995 roku <br>
+-jest to język skryptowy, ponieważ nie musi zostać skompilowany do kodu maszynowego, aby można było zobaczyć efekty jego działania <br>
+-kod client-side jest kodem, który jest wykonywany na komputerze użytkownika - kiedy strona jest wyświetlana, kod client-side jest pobierany, następnie uruchamiany i wyświetlany przez przeglądarkę.<br>
+-Ze względów bezpieczeństwa JavaScript ma znacznie ograniczone uprawnienia dostępu do zasobów komputera, przy użyciu którego przeglądana jest dana strona, a wszelkie odwołania do funkcji i obiektów wykonywane są w trakcie wykonywania programu. <br>
+-jest to tak zwany obiektowy model dokumentu HTML – czyli DOM. Określa on sposoby dostępu oraz zmiany zawartości i parametrów poszczególnych elementów struktury strony. <br>
+<input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen_musialowska(' ')"> <br>
+window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200"); - otwarcie nowego okna <br>
+toolbar=no wartość yes lub no (1 lub 0): pokazuje lub ukrywa standardowy pasek narzędzi <br>
+directories=no, wartość yes lub no (1 lub 0): pokazuje lub ukrywa przyciski katalogów <br>
+menubar=no, wartość yes lub no (1 lub 0): pokazuje lub ukrywa menu przeglądarki <br>
+height=280, wartość w pixelach (1 lub 0): ustawia wysokość okna <br>
+width=160, wartość w pixelach (1 lub 0): ustawia szerokość okna <br>
+top=200, wartość w pixelach : ustawia położenie okna względem góry ekranu <br>
+left=200 wartość w pixelach : ustawia położenie okna względem lewej strony ekranu <br>
+window.close() - zamknięcie okna<br>
+<img src="obraz1.gif" />
+<input type="button" value="zamknij okno" onclick="okno_zamknij_musialowska()"/>
+</body>
+</html>
